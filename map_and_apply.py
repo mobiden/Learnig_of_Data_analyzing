@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-df = pd.read_csv('citibike.csv')
+df = pd.read_csv('Data/citibike.csv')
 
 usertp = {'Customer':1, 'Subscriber':2}
 #print(df['usertype'].map(usertp).head(5))

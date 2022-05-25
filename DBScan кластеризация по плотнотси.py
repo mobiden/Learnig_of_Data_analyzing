@@ -10,7 +10,7 @@ os.environ["PROJ_LIB"] = "C:\\Python\\Anaconda\\pkgs\\proj-8.0.1-h1cfcee9_0\\Lib
 #df_geo = pd.read_csv('geo_data.txt', sep='\t', header=None,
 #                     names=['lat', 'long'])/10
 
-df_geo = pd.read_csv('bog_clean2.csv')
+df_geo = pd.read_csv('Data/bog_clean2.csv')
 #print(df_geo.head())
 
 

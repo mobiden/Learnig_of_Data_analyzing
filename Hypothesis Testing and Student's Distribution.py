@@ -4,7 +4,7 @@ import pandas as pd
 from scipy import stats
 
 taxi_mex = pd.read_csv('mex_clean.csv')
-taxi_bog = pd.read_csv('bog_clean.csv')
+taxi_bog = pd.read_csv('Data/bog_clean.csv')
 
 sample = taxi_mex['wait_sec'].sample(n=3000)/60
 # print(stats.stats.ttest_1samp(sample, 10)) # гипотеза не верна
